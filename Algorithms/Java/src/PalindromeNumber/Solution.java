@@ -6,9 +6,6 @@ package Algorithms.Java.src.PalindromeNumber;
 * */
 public class Solution {
     public boolean isPalindrome(int x) {
-
-        System.out.println(new StringBuilder(Integer.toString(x)).reverse());
-        System.out.println(Integer.toString(x));
         if (new StringBuilder(Integer.toString(x)).reverse().toString().equals(Integer.toString(x)))  {
             return true;
         }
